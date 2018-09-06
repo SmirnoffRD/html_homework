@@ -1,0 +1,46 @@
+.menue ul a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(32, 4, 110);
+}
+.list_menue{
+    list-style-type: none;
+}
+
+body {
+    background: 
+            url(../images/background.jpg);
+}
+
+
+.info h2{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short_info{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full_info{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.list_info{
+    list-style-image: url(../images/list.jpg)
+}
+
+.cont_input input{
+    color: #a8d111;
+    font-size: 35px;
+    font-weight: 500;
+}
