@@ -1,15 +1,24 @@
 .menue ul a{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: rgb(32, 4, 110);
+    font-size: 25px;
+    color: rgb(61, 4, 218);
+    text-decoration: none;
 }
 .list_menue{
     list-style-type: none;
+    overflow: hidden;
+    float: right;
+    width: fit-content;
 }
 
-body {
-    background: 
-            url(../images/background.jpg);
+.list_menue li{
+    display: inline;
+}
+
+.menue a:hover{
+    color: rgb(9, 7, 12);
+    text-decoration: underline;
+    
 }
 
 
@@ -49,10 +58,6 @@ body {
     border: 6px solid #a8d111;
 }
 
-.menue_links a:hover{
-    color: red;
-}
-
 input[type="email"]:focus{
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -63,7 +68,7 @@ input[type="text"]{
     text-transform: capitalize;
 }
 
-.img_border_active img:hover{
+.img_border:hover{
     border: 6px solid #a7d11100;
 }
 
@@ -86,4 +91,70 @@ input[type="text"]{
 
 table {
     border-collapse: collapse;
+}
+
+body{
+    background: 
+            url(../images/ammo_background.jpg)
+            repeat;
+}
+
+.main {
+    display: flex;
+    width: 980px;
+    background:
+            url(../images/test2.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    min-height: 1000px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+header {
+    width: 800px;
+    height: 200px;
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 180px;
+}
+
+footer {
+    height: 200px;
+    background: rgba(0, 0, 0, 0.363);
+    width: 800px;
+}
+
+.footer_cop{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    float: right;
+    color: rgb(255, 9, 9);
+}
+
+hr{
+    width: 980px;
+    background-color: black;
+    border: none;
+    height: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.text_box{
+    background: #0000006b;
+    color: white;
+    width: 980;
+}
+
+p.text_box{
+    text-indent: 40px;
 }
