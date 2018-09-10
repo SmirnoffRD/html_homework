@@ -152,9 +152,33 @@ hr{
 .text_box{
     background: #0000006b;
     color: white;
-    width: 980;
 }
 
 p.text_box{
     text-indent: 40px;
+}
+
+.catalog_list{
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 300px;
+}
+
+.catalog_list:nth-child(3n){
+    margin-right: 0px;
+}
+
+.catalog_list img{
+    width: 300px;
+    height: 120px;
+}
+
+.catalog_list h3{
+    margin-top: 0px;
+}
+
+.cont_catalog_list{
+    width: 920px;
+    overflow: hidden;
 }
