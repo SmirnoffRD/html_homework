@@ -21,29 +21,6 @@
     
 }
 
-
-.info h2{
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #eaeaea;
-}
-
-.short_info{
-    color: #707070;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
-}
-
-.full_info{
-    color: hsl(0, 0%, 0%);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
-
 .list_info{
     list-style-image: url(../images/list.jpg)
 }
@@ -55,7 +32,26 @@
 }
 
 .img_border{
+    width: 850px;
+    text-align: justify;
+}
+
+.img_border a{
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.img_border h2{
+    margin-left: 15px;
+    overflow: hidden;
+    margin-right: 0px;
+    font-size: 25px;
+}
+
+.img_border img{
     border: 6px solid #a8d111;
+    width: 400px;
 }
 
 input[type="email"]:focus{
@@ -68,8 +64,36 @@ input[type="text"]{
     text-transform: capitalize;
 }
 
-.img_border:hover{
+.img_border img:hover{
     border: 6px solid #a7d11100;
+}
+
+.img_border div{
+    display: inline;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.img_border button{
+    background-color: #a8d111;
+    color: blue;
+    float: right;
+}
+
+.img_border button:active{
+    background-color: red;
+}
+
+.img_border button:hover{
+    background-color: black;
+    color: white;
+}
+
+.p_first_letter{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.479);
+    text-indent: 40px;
+    width: 850px;    
 }
 
 .p_first_letter:first-letter{
@@ -152,6 +176,7 @@ hr{
 .text_box{
     background: #0000006b;
     color: white;
+    overflow: hidden;
 }
 
 p.text_box{
@@ -181,4 +206,8 @@ p.text_box{
 .cont_catalog_list{
     width: 920px;
     overflow: hidden;
+}
+
+.map {
+    width: 980px;
 }
